@@ -46,3 +46,16 @@ def find_numeric_col_names(df):
     return l
 
 
+# finding all numerical and categorical columns
+def numerical_and_categorical_columns(df):
+    list_of_columns = df.columns
+    numeric_columns = []
+    categorical_columns = []
+    for i in list_of_columns:
+        if df[i].dtype == int or df[i].dtype == float:
+            numeric_columns.append(i)
+        else:
+            categorical_columns.append(i)
+    return {"numerical_columns":numeric_columns,"categorical_columns":categorical_columns}
+    
+
