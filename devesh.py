@@ -44,5 +44,27 @@ def find_numeric_col_names(df):
         if df[i].dtype == 'int64' or df[i].dtype == float:
             l.append(i)
     return l
+  
+  
+ # this function will find all the outliers in the df    
+def find_outliers(df,threshold=2.5):
+    print("% of values outliers in each column")
+    numerical_columns = [i for i in df.columns if df[i].dtype == int or df[i].dtype==float ]
+    df = df[numerical_columns]
+    columns = df.columns
+    total_rows = df.shape[0]
+    outliers = {}
+
+    for i in columns:
+        lower_bound = df[i].median() - df[i].std()*threshold
+        upper_bound = df[i].median() + df[i].std()*threshold
+        normal_rows_count = df[i].between(lower_bound,upper_bound).sum()
+        outliers_rows = total_rows - normal_rows_count
+        outlier_percentage = outliers_rows/total_rows*100
+        outliers[i] = round(outlier_percentage,2)
+
+    outliers = pd.Series(outliers).sort_values(ascending=False)
+    return outliers
+
 
 
