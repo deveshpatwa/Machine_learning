@@ -3,8 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
-"""this functions will fix the column names which have space and - in there name to proper lower case with   underscore""" 
 def fix_col(df):   
     l = list(df.columns)
     l1 = []
