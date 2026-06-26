@@ -118,15 +118,27 @@ making machine capable of doing task which need a human intelligence to perform
 
 4. reenforcement learning
 
+> Q.how does ML programming differ from traditional programing?
+> 
+> IMP interview question
 
+### supervised learning
 
+1. regression analysis - numerical  - 
+   
+   1. general formula for regression -     y = mx + c for single and for multiple    y = m1x1(slop of variable 1 * value of x1) + m2x2(variable 2) + m3x3(variable one) + c (error) 
+   
+   2. how it is measured for how much error its throughing by 
+      
+      1.  mean absolute error - same as mean absolute error MAD
+      
+      2. mean squred error - same as VAR
+      
+      3. root mean squre error - same as STD of error
+      
+      4. R squred is use to judge the result - between 1 and 0 where if near 1 its much better
 
-
-
-
-
-
-
+2. classification - text / categorical
 
 
 
