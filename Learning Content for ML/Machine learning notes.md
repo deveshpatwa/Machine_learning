@@ -130,7 +130,7 @@ making machine capable of doing task which need a human intelligence to perform
    
    2. how it is measured for how much error its throughing by 
       
-      1.  mean absolute error - same as mean absolute error MAD
+      1. mean absolute error - same as mean absolute error MAD
       
       2. mean squred error - same as VAR
       
@@ -139,9 +139,12 @@ making machine capable of doing task which need a human intelligence to perform
       4. R squred is use to judge the result - between 1 and 0 where if near 1 its much better
 
 2. classification - text / categorical
+   
+   to classify the data in categories
+   types of classification - 
 
-
-
-
-
-
+   how to check how good is your model
+      1. accuracy - confusion matrix - [[tp,tn],[fp,fn]]
+      
+   
+   
