@@ -139,12 +139,14 @@ making machine capable of doing task which need a human intelligence to perform
       4. R squred is use to judge the result - between 1 and 0 where if near 1 its much better
 
 2. classification - text / categorical
-   
    to classify the data in categories
    types of classification - 
-
    how to check how good is your model
-      1. accuracy - confusion matrix - [[tp,tn],[fp,fn]]
-      
    
-   
+   1. accuracy - confusion matrix - [[tp,tn],[fp,fn]]   (percentage of how many times its correct / total prediction)
+   2. precision score - tp / tp+fP
+   3. recall  - tp / tp+fn
+      **IVQ - difference between precision and recall**
+      **IVQ - f1 score is harmonic mean of precision and recall**
+      ![confusion matrix](file:///C:/Users/deves/Documents/GitHub/Machine_learning/Learning%20Content%20for%20ML/confusion-matrix.webp)
+   4. ROC / AUC curve - it will work on binary classification - its a trade of between tp and fp 

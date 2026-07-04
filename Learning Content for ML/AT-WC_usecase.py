@@ -79,6 +79,8 @@ measurements on the human body
 # Connect to the MySQL DB source for Primary data
 # Load the datasets into Python dataframe
 import pandas as pd
+df = pd.read_csv("Waist.csv")
+df.head()
 
 data = pd.read_csv(r"C:\Users\asus\Downloads\Simple Linear Regression\Simple Linear Regression\datasets\ATpatients.csv")
 data2 = pd.read_csv(r"C:\Users\asus\Downloads\Simple Linear Regression\Simple Linear Regression\datasets\waist.csv")
@@ -129,7 +131,7 @@ wcat = wcat_full.drop(["Patient", "Sex", "Age"], axis = 1)
 # Relevant fields for Regression Analysis
 wcat.info()
 
-
+ls
 
 # Importing necessary libraries
 import pandas as pd # deals with data frame        # for Data Manipulation"
