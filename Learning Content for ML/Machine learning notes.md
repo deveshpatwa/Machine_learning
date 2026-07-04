@@ -150,3 +150,11 @@ making machine capable of doing task which need a human intelligence to perform
       **IVQ - f1 score is harmonic mean of precision and recall**
       ![confusion matrix](file:///C:/Users/deves/Documents/GitHub/Machine_learning/Learning%20Content%20for%20ML/confusion-matrix.webp)
    4. ROC / AUC curve - it will work on binary classification - its a trade of between tp and fp 
+
+# Decission tree
+tree like structure that is use to take decission using root, branch and leaf node
+   1. top down algorithm (greedy algoritm) - divide and conquer
+   2. mostely it work on categorical values
+   3. how decission tree deciside which category to choose from 
+      - entropy - how pure and impure feature is
+      - informatoin gain
