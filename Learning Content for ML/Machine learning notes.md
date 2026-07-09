@@ -1,5 +1,3 @@
-Zero variance 
-
 # EDA
 
 1. data load
@@ -84,11 +82,11 @@ making machine capable of doing task which need a human intelligence to perform
 
 2. AGI - artificial general intelligence - general kam kerne ke liye noraml jo apn use kerte he
 
-3. Artificial super intelligent 
-   
-   # types of ai based on functions
-   
-   1. reachtive AI - jab tk koi action na do tb tk kam nahi karega
+3. Artificial super intelligent
+
+# types of ai based on functions
+
+1. reachtive AI - jab tk koi action na do tb tk kam nahi karega
    
    2. limited memory - store memory of conversation
    
@@ -122,7 +120,7 @@ making machine capable of doing task which need a human intelligence to perform
 > 
 > IMP interview question
 
-### supervised learning
+## supervised learning
 
 1. regression analysis - numerical  - 
    
@@ -148,13 +146,38 @@ making machine capable of doing task which need a human intelligence to perform
    3. recall  - tp / tp+fn
       **IVQ - difference between precision and recall**
       **IVQ - f1 score is harmonic mean of precision and recall**
-      ![confusion matrix](file:///C:/Users/deves/Documents/GitHub/Machine_learning/Learning%20Content%20for%20ML/confusion-matrix.webp)
    4. ROC / AUC curve - it will work on binary classification - its a trade of between tp and fp 
 
 # Decission tree
+
 tree like structure that is use to take decission using root, branch and leaf node
-   1. top down algorithm (greedy algoritm) - divide and conquer
-   2. mostely it work on categorical values
-   3. how decission tree deciside which category to choose from 
-      - entropy - how pure and impure feature is
-      - informatoin gain
+
+1. top down algorithm (greedy algoritm) - divide and conquer
+2. mostely it work on categorical values
+3. how decission tree deciside which category to choose from 
+   - entropy - how pure and impure feature is
+   - informatoin gain
+
+# Ploynomial regression
+
+   -- need to complete
+
+# Logistic regression
+
+   -- need to complete
+
+# naive bayse
+
+   -- need to complete
+
+# KNN
+
+works on both number and category, assume that the data near if similar
+
+1. controlling complexity in K-NN - if k increase way more the it will become over fit
+   > difference between over fitting and under fitting
+   > whats biase and variance
+   >what is  bias - variance trade off curve - it represent a struggle to build a modelthat finds the perfect balancebetween under fitting (high bias) and over fitting (high varience)
+2. (assume closest distance from the historical datapoints and make predictions on them)
+> whats lazy lerner and fast lerner
+
