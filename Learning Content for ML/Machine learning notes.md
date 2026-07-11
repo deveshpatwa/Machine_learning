@@ -135,6 +135,10 @@ making machine capable of doing task which need a human intelligence to perform
       3. root mean squre error - same as STD of error
       
       4. R squred is use to judge the result - between 1 and 0 where if near 1 its much better
+   3. when its not predicting good you will use ridge , lasso, and elasticnet to improve its performance 
+      1. l1 lasso regularization - shrink kerna he data - jab bahut sare columns ho (50+) or regression use kerna ho to lasso regression laga do 
+      2. l2 ridge regularization - penalty ko add kerta he per sqr value kerke and near zero value deta he coeficient me - ye unscene data pe zyada acha kam kerta he 
+      3. elastic net - 
 
 2. classification - text / categorical
    to classify the data in categories
@@ -181,3 +185,9 @@ works on both number and category, assume that the data near if similar
 2. (assume closest distance from the historical datapoints and make predictions on them)
 > whats lazy lerner and fast lerner
 
+# Ensemble methods
+   - combine more then one model to predict
+   - hard voting just count the number of vote
+   - soft voting use probability to predict voting 
+   - weighted average bhi lete he isme
+   
