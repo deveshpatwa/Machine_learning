@@ -1,36 +1,36 @@
-## Problem Statement
-'''
-The Insurance problem.
+# ## Problem Statement
+# '''
+# The Insurance problem.
 
-The insurance firm profits are defined by the number of claims made by the customers.
+# The insurance firm profits are defined by the number of claims made by the customers.
 
-When an insurance company receives more claims, it usually means more payouts,
-which can decrease profits. This can lead insurance firms to be more stringent 
-or selective in approving claims, which might lead to disputes with customers.
+# When an insurance company receives more claims, it usually means more payouts,
+# which can decrease profits. This can lead insurance firms to be more stringent 
+# or selective in approving claims, which might lead to disputes with customers.
 
-This can lead to legal battles, which not only affect the company's financials
-due to legal costs but can also impact its reputation.
+# This can lead to legal battles, which not only affect the company's financials
+# due to legal costs but can also impact its reputation.
 
-This dynamic poses a significant challenge for insurance companies. 
-They need to balance their risk management and profitability with customer 
-satisfaction and legal compliance. Effective claim management, transparent 
-policies, and good customer service can help in reducing the likelihood of 
-disputes escalating to legal action.
+# This dynamic poses a significant challenge for insurance companies. 
+# They need to balance their risk management and profitability with customer 
+# satisfaction and legal compliance. Effective claim management, transparent 
+# policies, and good customer service can help in reducing the likelihood of 
+# disputes escalating to legal action.
 
 
-**Objective(s):** Maximize the profits
+# **Objective(s):** Maximize the profits
 
-**Constraints:** Maximize the customer satisfaction
+# **Constraints:** Maximize the customer satisfaction
 
-**Success Criteria**
+# **Success Criteria**
 
-- **Business Success Criteria**: Improve the profits from anywh.ere between 10% to 20%.
+# - **Business Success Criteria**: Improve the profits from anywh.ere between 10% to 20%.
 
-- **ML Success Criteria**: Accuracy should be around 70% - 75%
+# - **ML Success Criteria**: Accuracy should be around 70% - 75%
 
-- **Economic Success Criteria**: Reduce the legal complaints with appropriate 
-risk management to increase the revenues by atleast 20%.
-'''
+# - **Economic Success Criteria**: Reduce the legal complaints with appropriate 
+# risk management to increase the revenues by atleast 20%.
+# '''
 
 import pandas as pd
 import numpy as np

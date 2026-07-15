@@ -190,4 +190,22 @@ works on both number and category, assume that the data near if similar
    - hard voting just count the number of vote
    - soft voting use probability to predict voting 
    - weighted average bhi lete he isme
-   
+
+# Boosting ensemble learning
+   1. Adaboost
+      assign each 
+   2. xgboost
+   3. gradient boost
+
+
+# Unsupervised learning
+   model which dont need lables to learn 
+   1. clustring
+      - intra-class similarity 
+      - inter-class similarity 
+      - cluster of homogineus records 
+      - create a scatter plot using only one column keep it in x and y also
+      - agglomarative clustring(top down) and bottom up 
+      - other algo , birch , etc
+      - learn eculean distance using km and car drive example in a map
+   2. dimensionality reductions
