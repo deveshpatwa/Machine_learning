@@ -205,7 +205,12 @@ works on both number and category, assume that the data near if similar
       - inter-class similarity 
       - cluster of homogineus records 
       - create a scatter plot using only one column keep it in x and y also
-      - agglomarative clustring(top down) and bottom up 
+      - agglomarative clustring(bottom up) and top down 
       - other algo , birch , etc
       - learn eculean distance using km and car drive example in a map
+      - how to predict accuracy of model by silhouette score 
+         (
+            its range frome -1 to 1 where near to 1 mean good model(cluster are apart from each other) 
+         and near to -1 means bad model(cluster are overlapping)
+         )
    2. dimensionality reductions
