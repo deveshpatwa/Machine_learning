@@ -214,3 +214,14 @@ works on both number and category, assume that the data near if similar
          and near to -1 means bad model(cluster are overlapping)
          )
    2. dimensionality reductions
+      - LDA - linear discriminatoin
+      - NMF - 
+      - PCA  - imp try must
+      - SVD  - imp must try
+      - FA
+      SOME NON LINEAR 
+      - stocastic neighbor SNE
+      - T-distribution stocastic neighbor embedding t-SEN
+   3. K-means
+   4. dbscan
+   5. 
