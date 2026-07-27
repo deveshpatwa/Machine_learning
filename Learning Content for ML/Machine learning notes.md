@@ -224,4 +224,40 @@ works on both number and category, assume that the data near if similar
       - T-distribution stocastic neighbor embedding t-SEN
    3. K-means
    4. dbscan
-   5. 
+    - market basket analysis
+    - association rules application
+      - **support** - number of combinantion / total transactions , this is use to consider only those transaction which are in higher frequency
+      - **drawbacks** of these rules are , making all combinantion is exponencial , solve using iterative methods and level wise search
+      - **Support**: How often an item group shows up in all records.Confidence: How often the second item appears when the first item is present.Lift: How much stronger a rule is than random chance.Algorithms: Common methods to find these rules include Apriori and FP-Growth.
+      - The **lift ratio** measures how much more likely two items are to be bought together compared to if they were completely independent.
+      - The benchmark in association rule mining refers to the expected baseline probability that the consequent (Y) will occur purely by random chance.
+      - Leverage measures the difference between the actual co-occurrence of two items and the expected frequency if they were completely independent.While Lift is a ratio (multiplicative), Leverage is a difference (additive). It tells you how many additional transactions include both items because of their relationship.
+
+     - antecedent is if and then is 
+    - associatiotion rules faceplate - make combination for all most repeating combinantion, how to slect best one and usefull ones, 
+
+
+
+# Hypothesis testing
+   - sample t test , it use mean
+   - mann whitney test , it use median
+   - moods median test
+   - paired t test
+   - one way anova test , normality -> varience -> ANOVA(analysis of varience), here sum of sqr total = sum of sqr treatment + sum sqr of error 
+   - H0 = null hypothesis
+   - H1 = alternate hypothesis
+   - if there are one factor / variable which is changing then we need one way anova test
+   - but if there are two factore or varicable which are changing then we need two way anova test
+   - Chi - square test - when we have more the 2 factore / variables whic are changing 
+
+
+# stream lip deployment
+   - streamlit run file_name.py (the file which has code of stream lip, you have to make a code using chatgpt givw him prompt to make this current file.py into a strealit )
+   - after it is working on local host
+   - then go to github and make a repository with that project name
+   - you can add the descreption on it (optional)
+   -  then go to streamlit cloud
+   - connect github to streamlit website
+   - create a app using github repo
+   - select all option and make
+   - 
