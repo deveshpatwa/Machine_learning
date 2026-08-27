@@ -261,3 +261,6 @@ works on both number and category, assume that the data near if similar
    - create a app using github repo
    - select all option and make
    - 
+
+# CNN
+   - https://poloclub.github.io/cnn-explainer/

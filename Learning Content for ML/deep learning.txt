@@ -1,0 +1,36 @@
+# deep learning
+    - sub field of ai , use neural networks to process large data
+    - just like human brain process data it do the same
+    - neurons , layers, activation function
+
+# core deep learning for AI
+    - Type of ANN - artificial neural networks
+        - FNN , tables type 
+        - CNN, work on image 
+        - RNN, work on sequential data like  paragraph
+    - Backpropagation - jab ek abr modal pura train ho jayga then firse usske results ke bases pe input layer ke weights adjust honge update honge fir se train kiya jayega and then fir ye yahi step hogi kb tkk.   jb tk cost function near to 0 na ho jaye
+    - gradient descent - use to optimize the model by using try and error and reache to a local minima
+    - Learning rate - how large a step will model take to step down the hill it should not be too low and to high
+    - batch size, ager data bahut bada hota he to usse chote chote batch size me divide kerna padta to nahi to model bahut zyada time lega bar bar train hone me
+    - epochs, model kitni bar train ho rha he
+    - types of gradient descent - batch GD, stochastic GD, mini-batch GD
+
+what is transfer learning - imp
+	when you use a pre trained model and train a new model with its learning and fine tuning it
+
+what is NLP natural language processing 
+	- tokenization  - beak a sentence into tokens
+	- vectorization - then convert a word into number
+	- stop words - punctuation is very important
+	- lemmatization - convert word to its base form like running to run , children to child
+	- Bag of words -  
+	- TF - IDF - term frequency , inverse document frequency
+
+
+
+
+
+
+
+
+
